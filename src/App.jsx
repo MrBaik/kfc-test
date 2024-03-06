@@ -2,7 +2,7 @@
 
  function App() {
 
- const products =[
+ const product =[
 {
   
   id: 1,
@@ -60,13 +60,9 @@
 ]
   return (
    <>
-
+{/* 
 <div className="row">
-
- 
-
-
-{products.map((products) =>(
+{products.map((product) =>(
   
  <div className="col-sm-6" key={product.id}>
 
@@ -81,11 +77,23 @@
 
 </div>
   
- 
   ))}
+  </div> */}
 
+<div className="card" style={{width: "18rem"}}>
+//   <img src={product.image} className="card-img-top" alt="..." />
+//   <div className="card-body">
+//     <h5 className="card-title">
+//     {product.title} {" "}
+//     <span className="badge text-bg-primary">Rs. {product.price}</span>
+//      </h5>
+//     <p className="card-text">
+//       {product.desc}
+//     </p>
+//     <a href="#" className="btn btn-primary">Add to Cart</a>
+//   </div>
+// </div>
 
-  </div>
 </>
 
   );
