@@ -2,9 +2,7 @@
 
  function App() {
 
-//   let marks=[10,20,30,40,0,80,89,99];
-
-const product =[
+ const products =[
 {
   
   id: 1,
@@ -26,7 +24,7 @@ const product =[
 {
   
   id: 3,
-  title:"Hot Wings Bucket" ,
+  title:"Hot Wings Bucket 3" ,
   desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
   price: 550,
   image:"/kfc.png",
@@ -35,7 +33,7 @@ const product =[
 {
   
   id: 4,
-  title:"Hot Wings Bucket" ,
+  title:"Hot Wings Bucket 4" ,
   desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
   price: 550,
   image:"/kfc.png",
@@ -44,7 +42,7 @@ const product =[
 {
   
   id: 5,
-  title:"Hot Wings Bucket" ,
+  title:"Hot Wings Bucket 5" ,
   desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
   price: 550,
   image:"/kfc.png",
@@ -53,7 +51,7 @@ const product =[
 {
   
   id: 6,
-  title:"Hot Wings Bucket" ,
+  title:"Hot Wings Bucket 6" ,
   desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
   price: 550,
   image:"/kfc.png",
@@ -64,9 +62,13 @@ const product =[
    <>
 
 <div className="row">
-{products.map((products =>(
+
+ 
+
+
+{products.map((products) =>(
   
- <div class="col-sm-6" key={product.id}>
+ <div className="col-sm-6" key={product.id}>
 
   <div className="card" style={{width: "18rem"}}>
  <img className="card-img-top" src={product.image} />
