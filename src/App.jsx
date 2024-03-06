@@ -2,7 +2,7 @@
 
  function App() {
 
- const product =[
+ const product =
 {
   
   id: 1,
@@ -11,7 +11,7 @@
   price: 550,
   image:"/kfc.png",
   
-},
+}
 // {
   
 //   id: 2,
@@ -57,11 +57,11 @@
 //   image:"/kfc.png",
   
 // }
-]
+
   return (
    <>
    <h3>Hellow G</h3>
-   
+
 {/* 
 <div className="row">
 {products.map((product) =>(
