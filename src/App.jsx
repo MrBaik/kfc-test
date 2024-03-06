@@ -12,51 +12,51 @@
   image:"/kfc.png",
   
 },
-{
+// {
   
-  id: 2,
-  title:"Hot Wings Bucket 2" ,
-  desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
-  price: 550,
-  image:"/kfc.png",
+//   id: 2,
+//   title:"Hot Wings Bucket 2" ,
+//   desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
+//   price: 550,
+//   image:"/kfc.png",
   
-},
-{
+// },
+// {
   
-  id: 3,
-  title:"Hot Wings Bucket 3" ,
-  desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
-  price: 550,
-  image:"/kfc.png",
+//   id: 3,
+//   title:"Hot Wings Bucket 3" ,
+//   desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
+//   price: 550,
+//   image:"/kfc.png",
   
-},
-{
+// },
+// {
   
-  id: 4,
-  title:"Hot Wings Bucket 4" ,
-  desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
-  price: 550,
-  image:"/kfc.png",
+//   id: 4,
+//   title:"Hot Wings Bucket 4" ,
+//   desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
+//   price: 550,
+//   image:"/kfc.png",
   
-},
-{
+// },
+// {
   
-  id: 5,
-  title:"Hot Wings Bucket 5" ,
-  desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
-  price: 550,
-  image:"/kfc.png",
+//   id: 5,
+//   title:"Hot Wings Bucket 5" ,
+//   desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
+//   price: 550,
+//   image:"/kfc.png",
   
-},
-{
+// },
+// {
   
-  id: 6,
-  title:"Hot Wings Bucket 6" ,
-  desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
-  price: 550,
-  image:"/kfc.png",
+//   id: 6,
+//   title:"Hot Wings Bucket 6" ,
+//   desc:"KFc chicken worlds favorite get it now.KFc chicken worlds favorite get it now.",
+//   price: 550,
+//   image:"/kfc.png",
   
-}
+// }
 ]
   return (
    <>
