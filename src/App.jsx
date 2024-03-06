@@ -60,7 +60,7 @@
 
   return (
    <>
-   <h3>Hellow G</h3>
+  
 
 {/* 
 <div className="row">
