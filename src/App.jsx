@@ -64,18 +64,28 @@ const product =[
    <>
 
 <div class="row">
-  <div class="col-sm-6">
 
-   <div className="card" style={{width: "18rem"}}>
-  <img className="card-img-top" src={product.image} />
-  <div className="card-body">
-    <h5 className="card-title">{product.title}</h5>
-    <p className="card-text">{product.desc}</p>
-    <a href="#" className="btn btn-primary">Buy Now  </a>
-  </div>
+{products.map(products=>
+  
+  <div class="col-sm-6" key={product.id}>
+
+  <div className="card" style={{width: "18rem"}}>
+ <img className="card-img-top" src={product.image} />
+ <div className="card-body">
+   <h5 className="card-title">{product.title}</h5>
+   <p className="card-text">{product.desc}</p>
+   <a href="#" className="btn btn-primary">Buy Now  </a>
+ </div>
 </div>
 
-</div> </div>
+</div>
+  
+  
+  
+  )}
+
+
+  </div>
 </>
 
   )
